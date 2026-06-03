@@ -1,0 +1,7 @@
+[package]
+name = "rust_mouse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+minifb = { version = "=0.25.0", default-features = false, features = ["x11"] }
